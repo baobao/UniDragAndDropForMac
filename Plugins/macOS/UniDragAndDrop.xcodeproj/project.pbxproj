@@ -6,9 +6,17 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		694E431D24E2B0B400012179 /* UniDragAndDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 694E431C24E2B0B400012179 /* UniDragAndDrop.m */; };
+		6956C6D324E5129600606A2A /* GetDragAndDropFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6956C6D224E5129600606A2A /* GetDragAndDropFilePath.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		694E431324E2B05D00012179 /* TestMacPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMacPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		694E431324E2B05D00012179 /* UniDragAndDrop.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniDragAndDrop.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		694E431624E2B05D00012179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694E431C24E2B0B400012179 /* UniDragAndDrop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniDragAndDrop.m; sourceTree = "<group>"; };
+		6956C6D124E5129600606A2A /* GetDragAndDropFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDragAndDropFilePath.h; sourceTree = "<group>"; };
+		6956C6D224E5129600606A2A /* GetDragAndDropFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDragAndDropFilePath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,7 +33,7 @@
 		694E430A24E2B05D00012179 = {
 			isa = PBXGroup;
 			children = (
-				694E431524E2B05D00012179 /* TestMacPlugin */,
+				694E431524E2B05D00012179 /* UniDragAndDrop */,
 				694E431424E2B05D00012179 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -33,25 +41,28 @@
 		694E431424E2B05D00012179 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				694E431324E2B05D00012179 /* TestMacPlugin.bundle */,
+				694E431324E2B05D00012179 /* UniDragAndDrop.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		694E431524E2B05D00012179 /* TestMacPlugin */ = {
+		694E431524E2B05D00012179 /* UniDragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
+				6956C6D124E5129600606A2A /* GetDragAndDropFilePath.h */,
+				6956C6D224E5129600606A2A /* GetDragAndDropFilePath.m */,
 				694E431624E2B05D00012179 /* Info.plist */,
+				694E431C24E2B0B400012179 /* UniDragAndDrop.m */,
 			);
-			path = TestMacPlugin;
+			path = UniDragAndDrop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		694E431224E2B05D00012179 /* TestMacPlugin */ = {
+		694E431224E2B05D00012179 /* UniDragAndDrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 694E431924E2B05D00012179 /* Build configuration list for PBXNativeTarget "TestMacPlugin" */;
+			buildConfigurationList = 694E431924E2B05D00012179 /* Build configuration list for PBXNativeTarget "UniDragAndDrop" */;
 			buildPhases = (
 				694E430F24E2B05D00012179 /* Sources */,
 				694E431024E2B05D00012179 /* Frameworks */,
@@ -61,9 +72,9 @@
 			);
 			dependencies = (
 			);
-			name = TestMacPlugin;
+			name = UniDragAndDrop;
 			productName = TestMacPlugin;
-			productReference = 694E431324E2B05D00012179 /* TestMacPlugin.bundle */;
+			productReference = 694E431324E2B05D00012179 /* UniDragAndDrop.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -80,7 +91,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 694E430E24E2B05D00012179 /* Build configuration list for PBXProject "TestMacPlugin" */;
+			buildConfigurationList = 694E430E24E2B05D00012179 /* Build configuration list for PBXProject "UniDragAndDrop" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -93,7 +104,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				694E431224E2B05D00012179 /* TestMacPlugin */,
+				694E431224E2B05D00012179 /* UniDragAndDrop */,
 			);
 		};
 /* End PBXProject section */
@@ -113,6 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694E431D24E2B0B400012179 /* UniDragAndDrop.m in Sources */,
+				6956C6D324E5129600606A2A /* GetDragAndDropFilePath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +247,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AAA3T3RLLG;
-				INFOPLIST_FILE = TestMacPlugin/Info.plist;
+				INFOPLIST_FILE = UniDragAndDrop/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = info.shibuya24.TestMacPlugin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.shibuya24.UniDragAndDrop;
+				PRODUCT_NAME = UniDragAndDrop;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -249,10 +262,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = AAA3T3RLLG;
-				INFOPLIST_FILE = TestMacPlugin/Info.plist;
+				INFOPLIST_FILE = UniDragAndDrop/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = info.shibuya24.TestMacPlugin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.shibuya24.UniDragAndDrop;
+				PRODUCT_NAME = UniDragAndDrop;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -261,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		694E430E24E2B05D00012179 /* Build configuration list for PBXProject "TestMacPlugin" */ = {
+		694E430E24E2B05D00012179 /* Build configuration list for PBXProject "UniDragAndDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				694E431724E2B05D00012179 /* Debug */,
@@ -270,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		694E431924E2B05D00012179 /* Build configuration list for PBXNativeTarget "TestMacPlugin" */ = {
+		694E431924E2B05D00012179 /* Build configuration list for PBXNativeTarget "UniDragAndDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				694E431A24E2B05D00012179 /* Debug */,

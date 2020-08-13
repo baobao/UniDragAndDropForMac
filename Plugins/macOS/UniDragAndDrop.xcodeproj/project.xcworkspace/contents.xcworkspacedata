@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestMacPlugin.xcodeproj">
+      location = "self:/Users/a12176/workspace/private/TestMacPlugin/UniDragAndDrop.xcodeproj">
    </FileRef>
 </Workspace>
