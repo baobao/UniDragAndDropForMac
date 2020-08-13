@@ -3,22 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict>
-		<key>Resources/CocoaDragAndDrop-Info.plist</key>
-		<data>
-		YzD3jP7eMoqTh4oEoT1IVHDDjec=
-		</data>
-	</dict>
+	<dict/>
 	<key>files2</key>
-	<dict>
-		<key>Resources/CocoaDragAndDrop-Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ct78A7wn8TEoQVLYcB5+2uf81VQoRyWqPzROiyOhiYM=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^Resources/</key>
