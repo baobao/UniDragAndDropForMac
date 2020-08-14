@@ -7,7 +7,8 @@
     self = [super initWithCoder:coder];
     if (self)
     {
-        [self registerForDraggedTypes:[NSImage imageTypes]];
+        NSArray *ar = [NSArray arrayWithObjects:NSPasteboardTypeFileURL, nil];
+        [self registerForDraggedTypes:ar];
     }
     return self;
 }
