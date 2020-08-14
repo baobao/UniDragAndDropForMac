@@ -1,6 +1,6 @@
 # UniDragAndDropForMac
 
-I made drag and drop available in the Mac app.
+I made drag and drop available in a Mac app exported from Unity.
 
 ![macDD](https://user-images.githubusercontent.com/144386/90157635-ec8bbd00-ddc8-11ea-94f7-de721cf3e832.gif)
 
