@@ -16,6 +16,8 @@ UniDragAndDrop.onDragAndDropFilePath = x => {
 };
 ```
 
+## Required
+
 Only mono build.
 
 ## Install
