@@ -20,7 +20,7 @@ Only mono build.
 
 ## Install
 
-Import UniDragAndDropForMac.unitypackage.
+Import [UniDragAndDropForMac.unitypackage](https://github.com/baobao/UniDragAndDropForMac/releases).
 
 
 ## License
